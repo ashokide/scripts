@@ -1,0 +1,24 @@
+#! /bin/bash
+
+set -e
+
+declare -i number=10
+#number="test value"
+echo $number
+
+echo "additon"
+number=number+10
+echo $number
+
+echo "addition with space"
+number="number + 10"
+
+echo $number
+
+#echo "increment operator"
+#echo $number++
+
+#--------------------------
+
+let number=1
+echo $number++
